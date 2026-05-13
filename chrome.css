@@ -1,0 +1,73 @@
+/* Black background everywhere */
+body, .md-main, .md-main__inner, .md-content, .md-sidebar {
+  background-color: #000000 !important;
+}
+
+/* Main text - silver/chrome */
+.md-typeset {
+  color: #cccccc;
+}
+
+/* Chrome lettering for headings */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  background: linear-gradient(135deg, #e0e0e0 0%, #ffffff 50%, #a0a0a0 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 2px rgba(255,255,255,0.3);
+}
+
+/* Chrome links */
+.md-typeset a {
+  color: #dddddd;
+  transition: all 0.2s ease;
+}
+
+.md-typeset a:hover {
+  background: linear-gradient(135deg, #ffffff 0%, #ffd700 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 4px rgba(255,215,0,0.5);
+}
+
+/* Code blocks */
+.md-typeset code, .md-typeset pre {
+  background-color: #111111 !important;
+  border: 1px solid #333333;
+}
+
+.highlight .k, .highlight .kd, .highlight .kn {
+  color: #50fa7b;
+}
+
+.highlight .s, .highlight .sa {
+  color: #ffb86c;
+}
+
+.highlight .c, .highlight .ch {
+  color: #6272a4;
+}
+
+/* Header */
+.md-header {
+  background-color: #000000;
+  border-bottom: 1px solid #888888;
+  box-shadow: 0 0 8px rgba(136,136,136,0.2);
+}
+
+.md-header__inner {
+  color: #dddddd;
+}
+
+/* Footer */
+.md-footer {
+  background-color: #000000;
+  border-top: 1px solid #444444;
+}
+
+/* Next page link styling */
+.md-footer__inner {
+  border-top: 1px solid #333333;
+}
+
