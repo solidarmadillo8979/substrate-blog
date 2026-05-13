@@ -1,0 +1,41 @@
+site_name: The Substrate
+site_description: A field guide to the world beneath the internet
+site_author: You
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: black
+    accent: grey
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.next
+    - content.code.copy
+
+extra_css:
+  - css/chrome.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+
+nav:
+  - Welcome: index.md
+  - The Journey: the-journey.md
+  - Data Centers: data-centers.md
+  - Underwater Cables: underwater-cables.md
+  - Platforms: platforms.md
+  - The Ecosystem: ecosystem.md
+  - Artificial Intelligence: ai.md
+  - The Architects: humans.md
+  - Atlas (Gamified): 
+      - Void's Echo: atlas/voids-echo.md
+  - Expeditions (Learner):
+      - echo Command: expeditions/echo.md
