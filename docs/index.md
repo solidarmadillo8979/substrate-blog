@@ -1,3 +1,7 @@
+![The Substrate Map](./IMG_20260513_133907_662.jpg)
+
+---
+
 # Welcome… to the Substrate.
 
 Not the internet you scroll.
